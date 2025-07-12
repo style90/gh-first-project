@@ -1,11 +1,8 @@
 name: Demo
-
 on: workflow_dispatch
-
 jobs:
   print_hw:
     runs-on: ubuntu-latest
-
     steps:
       - name: print step
-        uses: echo "Hello world"
+        run: echo "Hello world !"
